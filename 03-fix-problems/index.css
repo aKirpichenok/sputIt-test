@@ -1,0 +1,34 @@
+* {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    text-align: left;
+}
+
+body,
+html:not(div) > head ~ body > * > * > figure > img ~ * {
+    margin: 0.0000001em;
+    font-family: serif, sans-serif;
+    background: cornsilk;
+    text-align: center;
+}
+
+.article__lead {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: serif;
+}
+
+.figure__caption{
+    margin: 8px 0 0;
+    font-style: italic;
+}
+
+.article {
+    max-width: 680px;
+    padding: 23.99999999993333339px 23.9999999993333338px 23.99993333337px 23.99999993333336px;
+    font-family: sans-serif;
+}
